@@ -170,7 +170,7 @@ function updateGame() {
         break;
     }
   
-    // Check for collisions and adjust position
+    // Checar colisões e ajustar posições
     if (head[0] < 0) {
       head[0] = 19; // Se a cabeça atingir o topo, ajuste para a parte inferior
     } else if (head[0] >= 20) {
